@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ede2442a.css",
+    "main.js": "/portfolio/static/js/main.d657d154.js",
+    "static/js/787.67f81f98.chunk.js": "/portfolio/static/js/787.67f81f98.chunk.js",
+    "static/media/VihangiBitmoji.PNG": "/portfolio/static/media/VihangiBitmoji.d3d67e1ba17969dc814b.PNG",
+    "static/media/VP Logo.png": "/portfolio/static/media/VP Logo.1448f5331685598b5754.png",
+    "index.html": "/portfolio/index.html",
+    "main.ede2442a.css.map": "/portfolio/static/css/main.ede2442a.css.map",
+    "main.d657d154.js.map": "/portfolio/static/js/main.d657d154.js.map",
+    "787.67f81f98.chunk.js.map": "/portfolio/static/js/787.67f81f98.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ede2442a.css",
+    "static/js/main.d657d154.js"
+  ]
+}
