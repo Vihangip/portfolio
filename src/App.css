@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: green;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +36,73 @@
     transform: rotate(360deg);
   }
 }
+
+/* Header */
+
+.Header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #11314F; 
+  z-index: 1000;
+}
+
+.logo {
+  width: 90px; 
+  height: auto; 
+  margin-top: 20px;
+  margin-left: 50px; 
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1); 
+}
+
+.socials {
+  display: flex;
+  margin-right: 50px;
+}
+
+.github,
+.linkedin {
+  width: 50px;
+  height: auto;
+  margin-top: 20px;
+  margin-right: 20px; 
+  transition: transform 0.3s ease;
+}
+
+.github:hover,
+.linkedin:hover {
+  transform: scale(1.1); 
+}
+
+/* Body */
+
+.Main {
+  display: flex;
+}
+
+.bitmoji {
+  width: 350px; 
+  height: auto; 
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.header-text {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-text p {
+  margin-left: 1px;
+  color: white;
+}
+
