@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer>
-      <p>© 2023 My Name</p>
+      <p>© 2024 Vihangi Perera</p>
     </footer>
   );
 }
