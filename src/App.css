@@ -54,42 +54,82 @@
   color: white;
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
 .content::-webkit-scrollbar {
   display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
 .content {
   -ms-overflow-style: none; 
   scrollbar-width: none;  
 }
 
+/* ABOUT */
+
 .about {
-  height: 400px;
+  height: 650px;
   color: white;
 }
 
-.education {
-  height: 600px;
-  color: white;
+.about-me {
+  height: 650px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
-.experience {
-  height: 600px;
-  color: white;
-}
-.projects {
-  height: 600px;
-  color: white;
-}
-.fun {
-  height: 600px;
-  color: white;
-}
+
 .bitmoji {
-  width: 350px;
+  width: 170px;
   height: auto;
+  margin-left: 50px;
 }
+
+/* EXPERIENCE */
+.experience {
+  height: 700px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+/* PROJECTS */
+.projects {
+  height: 650px;
+  color: white;
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 15px;
+}
+
+/* HACKATHONS */
+.hackathons {
+  height: 700px;
+  color: white;
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CONFERENCES */
+.conferences {
+  height: 650px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* FUN */
+.fun {
+  height: 650px;
+  color: white;
+}
+
+
 
 /* Menu */
 
@@ -106,9 +146,9 @@
   display: block; /* Make each link a block element */ 
   color: white; /* Set text color to white */ 
   text-decoration: none; /* Remove underline */ 
-  margin-bottom: 20px;
-  margin-left: 40px;
-  font-size: 38px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 33px;
   /* text-decoration: underline; */
 } 
 
