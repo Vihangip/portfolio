@@ -211,46 +211,54 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="matter-box" ref={matterBoxRef}>
-      <div className="dm-matter-elem" data-x="100" data-y="50">C</div>
-      <div className="dm-matter-elem" data-x="100" data-y="60">C++</div>
-      <div className="dm-matter-elem" data-x="100" data-y="70">Java</div>
-      <div className="dm-matter-elem" data-x="100" data-y="80">SQL</div>
-      <div className="dm-matter-elem" data-x="100" data-y="90">HTML</div>
-      <div className="dm-matter-elem" data-x="100" data-y="100">CSS</div>
-      <div className="dm-matter-elem" data-x="100" data-y="110">Javascript</div>
-      <div className="dm-matter-elem" data-x="100" data-y="120">Python</div>
-      <div className="dm-matter-elem" data-x="100" data-y="130">Typescript</div>
+    <div className='tech-stack'>
+      <div className='stack-title'>
+        <p> Here's my tech stack — literally! <br></br>
+            Explore, experiment or play some jenga :)
+        </p>
+      </div>
+      <div className="matter-box" ref={matterBoxRef}>
+        <div className="dm-matter-elem" data-x="100" data-y="50">C</div>
+        <div className="dm-matter-elem" data-x="100" data-y="60">C++</div>
+        <div className="dm-matter-elem" data-x="100" data-y="70">Java</div>
+        <div className="dm-matter-elem" data-x="100" data-y="80">SQL</div>
+        <div className="dm-matter-elem" data-x="100" data-y="90">HTML</div>
+        <div className="dm-matter-elem" data-x="100" data-y="100">CSS</div>
+        <div className="dm-matter-elem" data-x="100" data-y="110">Javascript</div>
+        <div className="dm-matter-elem" data-x="100" data-y="120">Python</div>
+        <div className="dm-matter-elem" data-x="100" data-y="130">Typescript</div>
 
-      <div className="dm-matter-elem" data-x="300" data-y="50">MySQL</div>
-      <div className="dm-matter-elem" data-x="300" data-y="60">MongoDB</div>
-      <div className="dm-matter-elem" data-x="300" data-y="70">MS SQL Server</div>
+        <div className="dm-matter-elem" data-x="300" data-y="50">MySQL</div>
+        <div className="dm-matter-elem" data-x="300" data-y="60">MongoDB</div>
+        <div className="dm-matter-elem" data-x="300" data-y="70">MS SQL Server</div>
 
-      <div className="dm-matter-elem" data-x="500" data-y="50">React</div>
-      <div className="dm-matter-elem" data-x="500" data-y="60">Tailwind</div>
-      <div className="dm-matter-elem" data-x="500" data-y="70">Leaflet</div>
-      <div className="dm-matter-elem" data-x="500" data-y="80">Material UI</div>
-      <div className="dm-matter-elem" data-x="500" data-y="90">Recharts</div>
-      <div className="dm-matter-elem" data-x="500" data-y="100">Three js</div>
-      <div className="dm-matter-elem" data-x="500" data-y="110">Matter js</div>
-      <div className="dm-matter-elem" data-x="500" data-y="120">Figma</div>
-      <div className="dm-matter-elem" data-x="500" data-y="130">React Three Fiber</div>
+        <div className="dm-matter-elem" data-x="500" data-y="50">React</div>
+        <div className="dm-matter-elem" data-x="500" data-y="60">Tailwind</div>
+        <div className="dm-matter-elem" data-x="500" data-y="70">Leaflet</div>
+        <div className="dm-matter-elem" data-x="500" data-y="80">Material UI</div>
+        <div className="dm-matter-elem" data-x="500" data-y="90">Recharts</div>
+        <div className="dm-matter-elem" data-x="500" data-y="100">Three js</div>
+        <div className="dm-matter-elem" data-x="500" data-y="110">Matter js</div>
+        <div className="dm-matter-elem" data-x="500" data-y="120">Figma</div>
+        <div className="dm-matter-elem" data-x="500" data-y="130">React Three Fiber</div>
 
-      <div className="dm-matter-elem" data-x="700" data-y="50">Node</div>
-      <div className="dm-matter-elem" data-x="700" data-y="60">Express</div>
-      <div className="dm-matter-elem" data-x="700" data-y="70">Flask</div>
-      <div className="dm-matter-elem" data-x="700" data-y="80">WebSocket</div>
-      <div className="dm-matter-elem" data-x="700" data-y="90">Axios</div>
-      <div className="dm-matter-elem" data-x="700" data-y="100">Postman</div>
-      <div className="dm-matter-elem" data-x="700" data-y="110">Chai js</div>
+        <div className="dm-matter-elem" data-x="700" data-y="50">Node</div>
+        <div className="dm-matter-elem" data-x="700" data-y="60">Express</div>
+        <div className="dm-matter-elem" data-x="700" data-y="70">Flask</div>
+        <div className="dm-matter-elem" data-x="700" data-y="80">WebSocket</div>
+        <div className="dm-matter-elem" data-x="700" data-y="90">Axios</div>
+        <div className="dm-matter-elem" data-x="700" data-y="100">Postman</div>
+        <div className="dm-matter-elem" data-x="700" data-y="110">Chai js</div>
 
-      <div className="dm-matter-elem" data-x="900" data-y="50">Git</div>
-      <div className="dm-matter-elem" data-x="900" data-y="60">Linux</div>
-      <div className="dm-matter-elem" data-x="900" data-y="70">YAML</div>
-      <div className="dm-matter-elem" data-x="900" data-y="80">Docker</div>
-      <div className="dm-matter-elem" data-x="900" data-y="90">Azure DevOps</div>
-      <div className="dm-matter-elem" data-x="900" data-y="100">Azure Service Bus</div>
+        <div className="dm-matter-elem" data-x="900" data-y="50">Git</div>
+        <div className="dm-matter-elem" data-x="900" data-y="60">Linux</div>
+        <div className="dm-matter-elem" data-x="900" data-y="70">YAML</div>
+        <div className="dm-matter-elem" data-x="900" data-y="80">Docker</div>
+        <div className="dm-matter-elem" data-x="900" data-y="90">Azure DevOps</div>
+        <div className="dm-matter-elem" data-x="900" data-y="100">Azure Service Bus</div>
+      </div>  
     </div>
+    
   );
 };
 
