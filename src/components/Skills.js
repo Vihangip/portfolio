@@ -6,7 +6,7 @@ const Skills = () => {
 
   useEffect(() => {
     // Module aliases
-    const { Engine, Render, Runner, Bodies, Composite, MouseConstraint, Mouse, Events, Body } = Matter;
+    const { Engine, Render, Runner, Bodies, Composite, MouseConstraint, Mouse, Events } = Matter;
 
     // Create an engine
     const engine = Engine.create();
@@ -224,8 +224,8 @@ const Skills = () => {
         <div className="dm-matter-elem" data-x="100" data-y="80">SQL</div>
         <div className="dm-matter-elem" data-x="100" data-y="90">HTML</div>
         <div className="dm-matter-elem" data-x="100" data-y="100">CSS</div>
-        <div className="dm-matter-elem" data-x="100" data-y="110">Javascript</div>
-        <div className="dm-matter-elem" data-x="100" data-y="120">Python</div>
+        <div className="dm-matter-elem" data-x="100" data-y="110">Python</div>
+        <div className="dm-matter-elem" data-x="100" data-y="120">Javascript</div>
         <div className="dm-matter-elem" data-x="100" data-y="130">Typescript</div>
 
         <div className="dm-matter-elem" data-x="300" data-y="50">MySQL</div>
@@ -235,20 +235,20 @@ const Skills = () => {
         <div className="dm-matter-elem" data-x="500" data-y="50">React</div>
         <div className="dm-matter-elem" data-x="500" data-y="60">Tailwind</div>
         <div className="dm-matter-elem" data-x="500" data-y="70">Leaflet</div>
-        <div className="dm-matter-elem" data-x="500" data-y="80">Material UI</div>
-        <div className="dm-matter-elem" data-x="500" data-y="90">Recharts</div>
-        <div className="dm-matter-elem" data-x="500" data-y="100">Three js</div>
-        <div className="dm-matter-elem" data-x="500" data-y="110">Matter js</div>
-        <div className="dm-matter-elem" data-x="500" data-y="120">Figma</div>
+        <div className="dm-matter-elem" data-x="500" data-y="80">Figma</div>
+        <div className="dm-matter-elem" data-x="500" data-y="90">Material UI</div>
+        <div className="dm-matter-elem" data-x="500" data-y="100">Recharts</div>
+        <div className="dm-matter-elem" data-x="500" data-y="110">Three js</div>
+        <div className="dm-matter-elem" data-x="500" data-y="120">Matter js</div>
         <div className="dm-matter-elem" data-x="500" data-y="130">React Three Fiber</div>
 
         <div className="dm-matter-elem" data-x="700" data-y="50">Node</div>
         <div className="dm-matter-elem" data-x="700" data-y="60">Express</div>
         <div className="dm-matter-elem" data-x="700" data-y="70">Flask</div>
-        <div className="dm-matter-elem" data-x="700" data-y="80">WebSocket</div>
-        <div className="dm-matter-elem" data-x="700" data-y="90">Axios</div>
-        <div className="dm-matter-elem" data-x="700" data-y="100">Postman</div>
-        <div className="dm-matter-elem" data-x="700" data-y="110">Chai js</div>
+        <div className="dm-matter-elem" data-x="700" data-y="80">Axios</div>
+        <div className="dm-matter-elem" data-x="700" data-y="90">Postman</div>
+        <div className="dm-matter-elem" data-x="700" data-y="100">Chai js</div>
+        <div className="dm-matter-elem" data-x="700" data-y="110">WebSocket</div>
 
         <div className="dm-matter-elem" data-x="900" data-y="50">Git</div>
         <div className="dm-matter-elem" data-x="900" data-y="60">Linux</div>
