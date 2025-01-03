@@ -5,7 +5,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Hackathons from './components/Hackathons';
 import Conferences from './components/Conferences';
-import Fun from './components/Fun';
+import Skills from './components/Skills';
 import logo from './images/VP Logo.png';
 import github from './images/github.png';
 import email from './images/mail.svg';
@@ -32,7 +32,7 @@ function App() {
       } else if (scrollPos >= 2600 && scrollPos < 3250) { 
         setActive('conferences') 
       } else if (scrollPos >= 3250) { 
-        setActive('fun') 
+        setActive('skills') 
       }
     }; 
     content.addEventListener('scroll', scrollActive);  
@@ -76,7 +76,7 @@ function App() {
           <div id="projects" className="projects"><Projects /></div>
           <div id="hackathons" className="hackathons"><Hackathons /></div>
           <div id="conferences" className="conferences"><Conferences /></div>
-          <div id="fun" className="fun"><Fun /></div>
+          <div id="skills" className="skills"><Skills  /></div>
         </div>
 
         <div className="menu">
@@ -85,7 +85,7 @@ function App() {
           <a href="#projects" data-topic="projects" className={`title ${active === 'projects' ? 'active' : ''}`} onClick={() => setActive('projects')}>projects</a>
           <a href="#hackathons" data-topic="hackathons" className={`title ${active === 'hackathons' ? 'active' : ''}`} onClick={() => setActive('hackathons')}>hackathons</a>
           <a href="#conferences" data-topic="conferences" className={`title ${active === 'conferences' ? 'active' : ''}`} onClick={() => setActive('conferences')}>conferences</a>
-          <a href="#fun" data-topic="fun" className={`title ${active === 'fun' ? 'active' : ''}`} onClick={() => setActive('fun')}>fun</a>
+          <a href="#skills" data-topic="skills" className={`title ${active === 'skills' ? 'active' : ''}`} onClick={() => setActive('skills')}>tech stack</a>
         </div>
 
       </div>

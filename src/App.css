@@ -115,7 +115,7 @@
 
 /* CONFERENCES */
 .conferences {
-  height: 650px;
+  height: 700px;
   color: white;
   display: flex;
   justify-content: center;
@@ -123,11 +123,37 @@
 
 }
 
-/* FUN */
-.fun {
+/* Skills */
+.skills {
   height: 650px;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
+.matter-box {
+  position: relative;
+  width: 90%;
+  height: 550px;
+  overflow: hidden;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.dm-matter-elem {
+  position: absolute;
+  pointer-events: none;
+  white-space: nowrap;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
 
 
 
@@ -138,7 +164,7 @@
   position: sticky;
   width: 100px;
   flex-direction: column;
-  padding: 20px;
+  padding: 18px;
   justify-content: center;
 }
 
@@ -146,10 +172,10 @@
   display: block; /* Make each link a block element */ 
   color: white; /* Set text color to white */ 
   text-decoration: none; /* Remove underline */ 
+  width: 100px;
   margin-bottom: 10px;
-  margin-left: 20px;
+  margin-left: 10px;
   font-size: 33px;
-  /* text-decoration: underline; */
 } 
 
 .menu a.active { 
