@@ -1,17 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ede2442a.css",
-    "main.js": "/portfolio/static/js/main.d657d154.js",
+    "main.css": "/portfolio/static/css/main.a49f599c.css",
+    "main.js": "/portfolio/static/js/main.747f8671.js",
     "static/js/787.67f81f98.chunk.js": "/portfolio/static/js/787.67f81f98.chunk.js",
-    "static/media/VihangiBitmoji.PNG": "/portfolio/static/media/VihangiBitmoji.d3d67e1ba17969dc814b.PNG",
+    "static/media/Housing.png": "/portfolio/static/media/Housing.296289982c38bd6fde9e.png",
+    "static/media/vision.png": "/portfolio/static/media/vision.27736efbaf10337dea10.png",
+    "static/media/movie.png": "/portfolio/static/media/movie.53139163fb72e7fdf5c5.png",
+    "static/media/Insight.png": "/portfolio/static/media/Insight.044e667f8404b3712456.png",
+    "static/media/VihangiBitmoji.PNG": "/portfolio/static/media/VihangiBitmoji.6581e25def6859e3f252.PNG",
+    "static/media/conference.jpg": "/portfolio/static/media/conference.9a70d4788320f4f648d8.jpg",
+    "static/media/down2meet.png": "/portfolio/static/media/down2meet.ca8a079704f7ce3f3d0d.png",
+    "static/media/ml.png": "/portfolio/static/media/ml.eb87a16f40db4a6679cc.png",
+    "static/media/echo.png": "/portfolio/static/media/echo.91c9437d3c4b8ae552ad.png",
+    "static/media/seaspan.jpg": "/portfolio/static/media/seaspan.6cc058375ac162100a47.jpg",
+    "static/media/pizza.jpg": "/portfolio/static/media/pizza.0ba9501e678262437448.jpg",
+    "static/media/aritzia.jpg": "/portfolio/static/media/aritzia.483b0544a67b02434089.jpg",
+    "static/media/pixel.png": "/portfolio/static/media/pixel.f34f6cdeda39d20f410d.png",
     "static/media/VP Logo.png": "/portfolio/static/media/VP Logo.1448f5331685598b5754.png",
+    "static/media/Geotab.png": "/portfolio/static/media/Geotab.123ef40654f7cb310586.png",
     "index.html": "/portfolio/index.html",
-    "main.ede2442a.css.map": "/portfolio/static/css/main.ede2442a.css.map",
-    "main.d657d154.js.map": "/portfolio/static/js/main.d657d154.js.map",
+    "static/media/mail.svg": "/portfolio/static/media/mail.8148da5136549b11e7b0eba3f1892fc4.svg",
+    "main.a49f599c.css.map": "/portfolio/static/css/main.a49f599c.css.map",
+    "main.747f8671.js.map": "/portfolio/static/js/main.747f8671.js.map",
     "787.67f81f98.chunk.js.map": "/portfolio/static/js/787.67f81f98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ede2442a.css",
-    "static/js/main.d657d154.js"
+    "static/css/main.a49f599c.css",
+    "static/js/main.747f8671.js"
   ]
 }
