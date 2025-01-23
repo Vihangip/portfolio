@@ -236,11 +236,12 @@ const Skills = () => {
         <div className="dm-matter-elem" data-x="500" data-y="60">Tailwind</div>
         <div className="dm-matter-elem" data-x="500" data-y="70">Leaflet</div>
         <div className="dm-matter-elem" data-x="500" data-y="80">Figma</div>
-        <div className="dm-matter-elem" data-x="500" data-y="90">Material UI</div>
-        <div className="dm-matter-elem" data-x="500" data-y="100">Recharts</div>
-        <div className="dm-matter-elem" data-x="500" data-y="110">Three js</div>
-        <div className="dm-matter-elem" data-x="500" data-y="120">Matter js</div>
-        <div className="dm-matter-elem" data-x="500" data-y="130">React Three Fiber</div>
+        <div className="dm-matter-elem" data-x="500" data-y="90">Recharts</div>
+        <div className="dm-matter-elem" data-x="500" data-y="100">Three js</div>
+        <div className="dm-matter-elem" data-x="500" data-y="110">Matter js</div>
+        <div className="dm-matter-elem" data-x="500" data-y="120">Material UI</div>
+        <div className="dm-matter-elem" data-x="500" data-y="130">Storybook</div>
+        <div className="dm-matter-elem" data-x="500" data-y="140">React Three Fiber</div>
 
         <div className="dm-matter-elem" data-x="700" data-y="50">Node</div>
         <div className="dm-matter-elem" data-x="700" data-y="60">Express</div>

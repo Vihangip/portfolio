@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import Echo from '../images/echo.png'
 import Pizza from '../images/pizza.jpg'
 import Aritzia from '../images/aritzia.jpg'
-import nw from '../images/Housing.png'
+import silly from '../images/silly.png'
 
 
 
@@ -20,32 +20,35 @@ const Hackathons = () => {
           component="img"
           alt="green iguana"
           height="140"
-          image={nw}
+          image={silly}
         />
-        <CardContent sx={{paddingTop: '10px', paddingLeft: '10px', paddingBottom: '0px', paddingRight: '0px', height: '150px'}}>
+        <CardContent sx={{paddingTop: '10px', paddingLeft: '10px', paddingBottom: '0px', paddingRight: '2px', height: '150px'}}>
           <Typography variant="h5" component="div" sx={{ marginBottom: '6px' }}>
             NW Hacks 2025
           </Typography>
           <Typography variant="h7" component="div" sx={{ marginBottom: '6px' }}>
-            Echo Empathy
+            Silly
           </Typography>
-          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-            A platform connecting people with similar mental health experiences through intelligent Reddit searches.
+          <Typography variant="body2" sx={{ color: 'text.secondary', marginBottom: '2px' }}>
+          Silly is a Chrome extension that provides users with a sustainability score for Amazon products. 
+          </Typography>
+          <Typography variant="body2" sx={{ color: 'orange' }}>
+          🏆 TELUS Sustainable Future Top 10 
           </Typography>
         </CardContent>
         <CardActions sx={{padding: '0px' }}>
           <Button size="small">
-            <a href="https://github.com/Vihangip/EchoEmpathy" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <a href="https://github.com/anandkaranubc/nwplus-2025/tree/working" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
               Repo
             </a>
           </Button>
           <Button size="small" style={{ margin: 0 }}>
-            <a href="https://down2meet.onrender.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
-              Visit
+            <a href="https://www.youtube.com/watch?v=K7sxXZC8J0U" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+              Demo
             </a>
           </Button>
           <Button size="small" style={{ margin: 0 }}>
-            <a href="https://down2meet.onrender.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <a href="https://devpost.com/software/silly" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
               DevPost
             </a>
           </Button>
