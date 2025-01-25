@@ -21,7 +21,7 @@ function App() {
   const contentRef = useRef(null);
   const zoom = window.outerWidth;
 
-  const isSmallerScreenSize = (width < 1400 || zoom < 1400) && (height < 1400);
+  const isSmallerScreenSize = (width < 1040 || zoom < 1040) && (height < 1040);
 
   const isBiggerScreenSize = (width > 1536 || zoom > 1920) && (height > 1536);
 

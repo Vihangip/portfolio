@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Matter from 'matter-js';
+import Help from '../images/help.png'
 
 const Skills = () => {
   const matterBoxRef = useRef(null);
@@ -215,6 +216,13 @@ const Skills = () => {
       <div className='stack-title'>
         <p> Here's my tech stack — literally! <br></br>
             Explore, experiment or play some jenga :)
+            <span className="tooltip-container">
+              <img src={Help} alt="Help Icon" className="help-icon" />
+              <span className="tooltip-text">
+                If it's being weird, please try refreshing the browser. Running a 2D physics engine on a static browser can be pretty demanding,
+                so it might get stuck every now and then.
+              </span>
+            </span>
         </p>
       </div>
       <div className="matter-box" ref={matterBoxRef}>
