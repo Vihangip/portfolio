@@ -11,8 +11,8 @@ import github from './images/github.png';
 import email from './images/mail.svg';
 import linkedin from './images/linkedin.png';
 import useWindowDimensions from './useWindowDimensions';
-import TooSmallScreen from './TooSmallScreen';
-import TooBigScreen from './TooBigScreen';
+import TooSmallScreen from './components/TooSmallScreen';
+import TooBigScreen from './components/TooBigScreen';
 
 
 function App() {
