@@ -43,9 +43,9 @@ function App() {
         setActive('about')
       } else if (scrollPos >= 500 && scrollPos < 1200) { 
         setActive('experience') 
-      } else if (scrollPos >= 1200 && scrollPos < 1950) { 
+      } else if (scrollPos >= 1200 && scrollPos < 2000) { 
         setActive('projects')
-      } else if (scrollPos >= 1950 && scrollPos < 2600) { 
+      } else if (scrollPos >= 2000 && scrollPos < 2600) { 
         setActive('hackathons') 
       } else if (scrollPos >= 2600 && scrollPos < 3250) { 
         setActive('conferences') 

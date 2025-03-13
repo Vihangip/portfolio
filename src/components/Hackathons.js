@@ -9,19 +9,60 @@ import Echo from '../images/echo.png'
 import Pizza from '../images/pizza.jpg'
 import Aritzia from '../images/aritzia.jpg'
 import silly from '../images/silly.png'
+import VizWord from '../images/vizword.png'
 
 
 
 const Hackathons = () => {
   return (
     <div className='hackathons'>
-      <Card sx={{ maxWidth: 270, maxHeight: 500 }}>
+      <Card sx={{ maxWidth: 270, maxHeight: '340px' }}>
+        <CardMedia
+          component="img"
+          alt="green iguana"
+          height="140"
+          image={VizWord}
+        />
+        <CardContent sx={{paddingTop: '10px', paddingLeft: '10px', paddingBottom: '0px', paddingRight: '2px', height: '150px'}}>
+          <Typography variant="h5" component="div" sx={{ marginBottom: '6px' }}>
+            cmd-f 2025
+          </Typography>
+          <Typography variant="h7" component="div" sx={{ marginBottom: '6px' }}>
+            VizWord
+          </Typography>
+          <Typography variant="body2" sx={{ color: 'text.secondary', marginBottom: '2px' }}>
+          An interactive language learning app built for kids using computer vision and Gemini with a custom made 3D mascot. 
+          </Typography>
+          <Typography variant="body2" sx={{ color: 'orange' }}>
+          🏆 NW Plus Team Choice Award
+          </Typography>
+        </CardContent>
+        <CardActions sx={{padding: '0px' }}>
+          <Button size="small">
+            <a href="https://github.com/Vihangip/VizWord-cmd-f" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+              Repo
+            </a>
+          </Button>
+          <Button size="small" style={{ margin: 0 }}>
+            <a href="https://youtu.be/MLqxKmnXSu4" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+              Demo
+            </a>
+          </Button>
+          <Button size="small" style={{ margin: 0 }}>
+            <a href="https://devpost.com/software/vizword" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+              DevPost
+            </a>
+          </Button>
+        </CardActions>
+      </Card>
+      <Card sx={{ maxWidth: 270, maxHeight: '340px' }}>
         <CardMedia
           component="img"
           alt="green iguana"
           height="140"
           image={silly}
         />
+        
         <CardContent sx={{paddingTop: '10px', paddingLeft: '10px', paddingBottom: '0px', paddingRight: '2px', height: '150px'}}>
           <Typography variant="h5" component="div" sx={{ marginBottom: '6px' }}>
             NW Hacks 2025
@@ -54,7 +95,7 @@ const Hackathons = () => {
           </Button>
         </CardActions>
       </Card>
-      <Card sx={{ maxWidth: 270, maxHeight: 500 }}>
+      <Card sx={{ maxWidth: 270, maxHeight: '340px' }}>
         <CardMedia
           component="img"
           alt="green iguana"
@@ -85,7 +126,7 @@ const Hackathons = () => {
           </Button>
         </CardActions>
       </Card>
-      <Card sx={{ maxWidth: 270, maxHeight: 500 }}>
+      <Card sx={{ maxWidth: 270, maxHeight: '340px' }}>
         <CardMedia
           component="img"
           alt="green iguana"
@@ -121,14 +162,14 @@ const Hackathons = () => {
           </Button>
         </CardActions>
       </Card>
-      <Card sx={{ maxWidth: 270, maxHeight: 500 }}>
+      <Card sx={{ maxWidth: 270, maxHeight: '320px' }}>
         <CardMedia
           component="img"
           alt="green iguana"
           height="140"
           image={Aritzia}
         />
-        <CardContent sx={{paddingTop: '10px', paddingLeft: '10px', paddingBottom: '0px', paddingRight: '0px', height: '150px'}}>
+        <CardContent sx={{paddingTop: '10px', paddingLeft: '10px', paddingBottom: '0px', paddingRight: '0px', height: '130px'}}>
           <Typography variant="h5" component="div" sx={{ marginBottom: '6px' }}>
             girlCode × Aritzia 2023
           </Typography>
