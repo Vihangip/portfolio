@@ -87,8 +87,6 @@ function App() {
       </div>
       {isSmallerScreenSize ? (
         <TooSmallScreen />
-      ) : isBiggerScreenSize ? (
-        <TooBigScreen />
       ) : (
         <div className="main">
           <div ref={contentRef} className="content">
