@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Pixel from '../images/pixel.png'
-import Ticket from '../images/ticket.png'
+import Comparenion from '../images/comparenion.png'
 import Down2Meet from '../images/down2meet.png'
 import Insight from '../images/Insight.png'
 import Housing from '../images/Housing.png'
@@ -23,19 +23,19 @@ const Projects = () => {
           component="img"
           alt="green iguana"
           height="140"
-          image={Ticket}
+          image={Comparenion}
         />
         <CardContent sx={{paddingTop: '10px', paddingLeft: '10px', paddingBottom: '0px', paddingRight: '0px'}}>
           <Typography variant="h6" component="div">
-            Ticket Price Tracker
+            Comparenion
           </Typography>
           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          A Chrome extension that monitors Ticketmaster concert prices and sends email alerts when they fall below a specified threshold
+          A mobile app designed to compare products across multiple metrics to ensure the best value, developed using Swift UI Playgrounds.
           </Typography>
         </CardContent>
         <CardActions sx={{padding: '0px' }}>
           <Button size="small">
-            <a href="https://github.com/Vihangip" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <a href="https://github.com/Vihangip/Comparenion" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
               Repo
             </a>
           </Button>
