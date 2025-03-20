@@ -79,7 +79,7 @@ const Hackathons = () => {
         </CardContent>
         <CardActions sx={{padding: '0px' }}>
           <Button size="small">
-            <a href="https://github.com/anandkaranubc/nwplus-2025/tree/working" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <a href="https://github.com/anandkaranubc/nwplus-2025" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
               Repo
             </a>
           </Button>
